@@ -43,7 +43,7 @@ public class Hotel {
         this.diningRooms.put(diningRoom.getName(), diningRoom);
     }
 
-    public ArrayList<Room> getEmptyRooms() {
-        ArrayList<Room> emptyRooms = this.rooms.removeIf();
-    }
+//    public ArrayList<Room> getEmptyRooms() {
+//        ArrayList<Room> emptyRooms = this.rooms.removeIf();
+//    }
 }
